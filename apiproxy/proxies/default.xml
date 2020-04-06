@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>qa-quotapolicy</Name>
+            </Step>
+            <Step>
+                <Name>sa-spikearrest</Name>
+            </Step>
+            <Step>
+                <Name>jtp-jsonthreatprotection</Name>
+            </Step>
+            <Step>
+                <Name>oa-oauth</Name>
+            </Step>
+            <Step>
+                <Name>vak-verifyapikey</Name>
+            </Step>
+            <Step>
+                <Name>rf-raisefault</Name>
+            </Step>
+            <Step>
+                <Name>am-assignmessage</Name>
+            </Step>
+            <Step>
+                <Name>kvm-keyvaluemap</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PreFlow>
+    <Flows/>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/policies</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

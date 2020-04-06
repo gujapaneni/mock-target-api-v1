@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Policies">
+    <Basepaths>/policies</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1586185015667</CreatedAt>
+    <CreatedBy>venkatg@estradaconsultinginc.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Policies</DisplayName>
+    <LastModifiedAt>1586185359379</LastModifiedAt>
+    <LastModifiedBy>venkatg@estradaconsultinginc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4880cac430cb1fff0a8559a6ce71ead227446d02ab4f1551d45f106c9573ac6ea8fdd69e69fb8ac9e3b16facbac4e8368b5d1a9836415f39eba03718c0164289</ManifestVersion>
+    <Policies>
+        <Policy>am-assignmessage</Policy>
+        <Policy>jtp-jsonthreatprotection</Policy>
+        <Policy>kvm-keyvaluemap</Policy>
+        <Policy>oa-oauth</Policy>
+        <Policy>qa-quotapolicy</Policy>
+        <Policy>rf-raisefault</Policy>
+        <Policy>sa-spikearrest</Policy>
+        <Policy>vak-verifyapikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
